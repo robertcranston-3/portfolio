@@ -6,14 +6,84 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
-  <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+  <nav>
+    <a class="button" href="#aboutMe"> About Me</a>
+    <a class="button" href="#projects"> Projects</a>
+    <a class="button" href="#resume"> Resume</a>
+    <a class="button" href="#personalTime"> Personal Time</a>
+    <a class="button" href="https://www.linkedin.com/in/robertvancecranston/"><img id = "navpic" src=/images/Linkedin.png></a>  
+    <a class="button" href="https://www.instagram.com/_robcranston_/"><img id = "navpic" src=/images/instagram.jpg></a>
+    <a class="button" href="https://github.com/robertcranston-3"><img id = "navpic" src=/images/github.png></a>  
+
+
+  </nav>
+  <body >
+    <div class="whiteBack">      
+        <div id="content">
+            <h1 style="font-size: 60px;">Robert Cranston's Portfolio</h1>
+            <section id="aboutMe">
+                <div class = "blockInline" id="projectB">
+                    <h2 style="font-size: 40px;">About Me</h2>
+                    <p>Hey! My name is Robert Cranston a sophomore at Duke University. I am studying Electrical and Computer Engineering 
+                and Computer Science. I am the Vice President of the Kappa Omicron chapter of Alpha Phi Alpha Fraternity 
+                Incorporated and the Parliamentarian of Duke's NSBE chapter. 
+                    </p>
+                </div>
+        
+                <img class = "blockInline" id= "aboutmeImg"src="/images/alpha-17_Original.jpg">
+            </section>
+        </div>
+    </div>
+    <div class="greyBack">  
+        <section id="projects">
+            <h2 style="font-size: 40px; color: white;">Personal Projects</h2>
+            <div class = "blockInline" id="projectBlocks">
+                <p style = "color: white;">
+                  I am currently working on a website using React for one of my friends who sells shoes but it is just in the beginning 
+                  stages with the initial layout and setup. Next I want to work on setting up payments, authentication, and 
+                  making it user friendly.
+                </p>               
+            </div>
+            <img class="blockInline" id="projectBlocks" src="/images/snellvilleSneaks.png">
+            <div>
+                <div class = "blockInline" id="projectBlocks">
+                    <p style = "color: white;">
+                    Python script to follow selected stock and run basic algorithms on them to help me make trading decisions.
+                    </p>               
+                </div>
+            
+                <img class="blockInline" id="projectBlocks" src="/images/stocks.jpg">
+            </div>
+        </section>
+    </div>
+    <div class = "whiteBack">
+        <section id="resume">
+            <h2 style="font-size: 40px; color: black;">Resume</h2>
+
+            <embed src="pdfFiles/RobertCranstonResume.pdf" width="900" height="750" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+        </section>
+
+    </div>
+    <div class="greyBack">
+        <section id="personalTime">
+            <h2 style="font-size: 40px; color: white;">My Personal Time</h2>
+            <div>
+                <h3 style="font-size: 40px; color: white;">Who I hang out with</h3>"
+                <img class="galleryBlock" src="/images/GroupMe_2021227_20185.jpeg">
+                <img class="galleryBlock" src="/images/GroupMe_2021227_201719.jpeg">
+                <img class="galleryBlock" src="/images/GroupMe_2021227_201716.jpeg">
+                <img class="galleryBlock" src="/images/GroupMe_2021227_201714.jpeg">
+                <img class="galleryBlock" src="/images/GroupMe_2021227_201712.jpeg">
+            </div>
+            <div>
+                <h3 style="font-size: 40px; color: white;">What I listen to!</h3>
+                <img class="galleryBlock" src="/images/GroupMe_2021227_20170.jpeg">
+                <img class="galleryBlock" src="/images/GroupMe_2021227_201710.jpeg">
+                <img class="galleryBlock" src="/images/GroupMe_2021227_20172.jpeg">
+                <img class="galleryBlock" src="/images/GroupMe_2021227_20174.jpeg">
+                <img class="galleryBlock" src="/images/GroupMe_2021227_20177.jpeg">
+            </div>
+        </section>
     </div>
   </body>
 </html>

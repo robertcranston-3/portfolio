@@ -1,9 +1,83 @@
 #content {
   margin-left: auto;
   margin-right: auto;
-  width: 650px;
+  width: 80%;
+  margin-top: 20px;
+}
+#aboutmeImg{
+    width:35%
+}
+p{
+    font-size: 40px;
+}
+
+.blockInline{
+    display:inline-block;
+    padding: 40;
+    width:60%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#projectBlocks{
+    width:30%;
 }
 
 #greeting-container {
-  margin-top: 20px;
+  margin-top: 80px;
 }
+
+#projects{
+    text-align: center;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    width:100%;
+    background-color: rgb(82, 82, 82);
+    text-align: center;    
+}
+section{
+    padding: 20px
+}
+    
+#topimg{
+    height:400px;
+}
+h1{
+    font-size: 60;
+    text-align: center;
+}
+#navpic{
+    height:50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.button{
+    padding: 20px;
+    font-size: 30px;
+    color:white;
+}
+.whiteBack{
+    background-color: white;
+}
+.greyBack{
+    background-color: rgb(82, 82, 82);
+}
+.galleryBlock{
+    display:inline-block;
+    height: 200px;
+    padding:30px;
+    border: solid;
+    border-width: 5px;
+    border-color: white;
+}
+#personalTime{
+    text-align: center;
+}
+#resume{
+    text-align: center;
+}
+
+
