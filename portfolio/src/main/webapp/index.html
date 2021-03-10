@@ -5,6 +5,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   </head>
   <nav>
     <a class="navLink" href="#aboutMe"> About Me</a>
@@ -20,7 +21,7 @@
   <body >
     <div class="whiteBack">      
         <div id="content">
-            <h1 style="font-size: 60px;">Robert Cranston's Portfolio</h1>
+            <h1 style="font-size: 40px;">Robert Cranston's Portfolio</h1>
             <section id="aboutMe">
                 <div class = "blockInline" id="projectB">
                     <h2 style="font-size: 40px;">About Me</h2>
@@ -36,7 +37,7 @@
     </div>
     <div class="greyBack">  
         <section id="projects">
-            <h2 style="font-size: 40px; color: white;">Personal Projects</h2>
+            <h2 style="font-size: 30px; color: white;">Personal Projects</h2>
             <div class = "blockInline" id="projectBlocks">
                 <p style = "color: white;">
                   I am currently working on a website using React for one of my friends who sells shoes but it is just in the beginning 
@@ -58,7 +59,7 @@
     </div>
     <div class = "whiteBack">
         <section id="resume">
-            <h2 style="font-size: 40px; color: black;">Resume</h2>
+            <h2 style="font-size: 30px; color: black;">Resume</h2>
 
             <embed src="pdfFiles/RobertCranstonResume.pdf" width="900" height="750" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
         </section>
@@ -66,9 +67,9 @@
     </div>
     <div class="greyBack">
         <section id="personalTime">
-            <h2 style="font-size: 40px; color: white;">My Personal Time</h2>
+            <h2 style="font-size: 30px; color: white;">My Personal Time</h2>
             <div>
-                <h3 style="font-size: 40px; color: white;">Who I hang out with</h3>"
+                <h3 style="font-size: 30px; color: white;">Who I hang out with</h3>"
                 <img class="galleryBlock" src="/images/GroupMe_2021227_20185.jpeg">
                 <img class="galleryBlock" src="/images/GroupMe_2021227_201719.jpeg">
                 <img class="galleryBlock" src="/images/GroupMe_2021227_201716.jpeg">
@@ -76,7 +77,7 @@
                 <img class="galleryBlock" src="/images/GroupMe_2021227_201712.jpeg">
             </div>
             <div>
-                <h3 style="font-size: 40px; color: white;">What I listen to!</h3>
+                <h3 style="font-size: 30px; color: white;">What I listen to!</h3>
                 <img class="galleryBlock" src="/images/GroupMe_2021227_20170.jpeg">
                 <img class="galleryBlock" src="/images/GroupMe_2021227_201710.jpeg">
                 <img class="galleryBlock" src="/images/GroupMe_2021227_20172.jpeg">
@@ -87,5 +88,16 @@
             <p id ='hello' style="color: white"></p>
         </section>
     </div>
+    <div class="whiteBack">
+        <section id="contactMe">
+            <form action="/form-handler" method="POST">
+                <p>Comments:</p>
+                <textarea id="comments" name="text-input"></textarea>
+                <br/>
+                <input type="submit" />
+            </form>
+        </section>
+    </div>
+
   </body>
 </html>
