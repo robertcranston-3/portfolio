@@ -7,13 +7,13 @@
     <script src="script.js"></script>
   </head>
   <nav>
-    <a class="button" href="#aboutMe"> About Me</a>
-    <a class="button" href="#projects"> Projects</a>
-    <a class="button" href="#resume"> Resume</a>
-    <a class="button" href="#personalTime"> Personal Time</a>
-    <a class="button" href="https://www.linkedin.com/in/robertvancecranston/"><img id = "navpic" src=/images/Linkedin.png></a>  
-    <a class="button" href="https://www.instagram.com/_robcranston_/"><img id = "navpic" src=/images/instagram.jpg></a>
-    <a class="button" href="https://github.com/robertcranston-3"><img id = "navpic" src=/images/github.png></a>  
+    <a class="navLink" href="#aboutMe"> About Me</a>
+    <a class="navLink" href="#projects"> Projects</a>
+    <a class="navLink" href="#resume"> Resume</a>
+    <a class="navLink" href="#personalTime"> Personal Time</a>
+    <a class="navLink" href="https://www.linkedin.com/in/robertvancecranston/"><img id = "navpic" src=/images/Linkedin.png></a>  
+    <a class="navLink" href="https://www.instagram.com/_robcranston_/"><img id = "navpic" src=/images/instagram.jpg></a>
+    <a class="navLink" href="https://github.com/robertcranston-3"><img id = "navpic" src=/images/github.png></a>  
 
 
   </nav>
@@ -33,7 +33,6 @@
                 <img class = "blockInline" id= "aboutmeImg"src="/images/alpha-17_Original.jpg">
             </section>
         </div>
-        <p>Click <a href="/hello">here</a> to see hello</p>
     </div>
     <div class="greyBack">  
         <section id="projects">
@@ -84,6 +83,8 @@
                 <img class="galleryBlock" src="/images/GroupMe_2021227_20174.jpeg">
                 <img class="galleryBlock" src="/images/GroupMe_2021227_20177.jpeg">
             </div>
+            <p style="color: white">Click <button style = "color:white; background-color: rgb(82, 82, 82);" onclick="showGreeting();">here</button> to see hello</p>
+            <p id ='hello' style="color: white"></p>
         </section>
     </div>
   </body>
