@@ -36,7 +36,8 @@ nav{
     top: 0;
     width:100%;
     background-color: rgb(82, 82, 82);
-    text-align: center;    
+    text-align: center; 
+    vertical-align: middle;       
 }
 section{
     padding: 20px
@@ -58,6 +59,7 @@ h1{
     padding: 20px;
     font-size: 30px;
     color:white;
+    vertical-align: middle;
 }
 .whiteBack{
     background-color: white;
