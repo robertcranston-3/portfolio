@@ -66,6 +66,7 @@ h1{
 }
 .greyBack{
     background-color: rgb(82, 82, 82);
+    color:white
 }
 .galleryBlock{
     display:inline-block;
@@ -92,6 +93,15 @@ button{
 #comments{
     width: 60%;
     height: 80px;
+}
+#map{
+    height:500px;
+    width:100%;
+    
+}
+#loveToEat{
+    text-align: center;
+    align-items: center;
 }
 
 
